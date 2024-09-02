@@ -1,5 +1,5 @@
 
-import { socialLinks } from "../User";
+import { socialLinks } from "./User";
 
 const Social=()=>{
     const socialIcons=socialLinks.map((socialLink, index)=>{
