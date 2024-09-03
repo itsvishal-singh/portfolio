@@ -3,6 +3,7 @@ import Contact from "./Contact";
 import Experience from "./Experience";
 import Footer from "./Footer";
 import Header from "./Header";
+import Particles from "./magicui/Particles";
 import Mail from "./Mail";
 import Projects from "./Projects";
 import Skills from "./Skills";
@@ -16,7 +17,6 @@ const HomePage=()=>{
         <Projects/>
         <Skills/>
         <Experience/>
-
         <Contact/>
         <Footer/>
         <Mail/>
