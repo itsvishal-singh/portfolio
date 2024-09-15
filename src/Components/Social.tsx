@@ -8,7 +8,7 @@ const Social=()=>{
     </a>
     })
 
-    return <div  className="flex md-mx:hidden text-textColor items-center gap-8 fixed bottom-32 -left-36 rotate-90 " >
+    return <div  className="flex md-mx:hidden text-textColor items-center gap-10 fixed bottom-32 -left-32 rotate-90 " >
         {socialIcons}
         <hr className="border w-40 rounded-full  bg-textColor border-textColor"/>
     </div>
