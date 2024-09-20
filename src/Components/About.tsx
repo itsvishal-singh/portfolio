@@ -5,8 +5,8 @@ import { Button, useMatches } from "@mantine/core";
 import ResumeViewer from "./ResumeViewer";
 import { useDisclosure } from "@mantine/hooks";
 import { IconDownload } from "@tabler/icons-react";
-import Particles from "./magicui/Particles";
-import { NeonGradientCard } from "./magicui/neon-gradient-card";
+import Particles from "./MagicUI/Particles";
+import { NeonGradientCard } from "./MagicUI/neon-gradient-card";
 const About = () => {
     const [opened, { open, close }] = useDisclosure(false);
     const btn =useMatches({ 
@@ -17,11 +17,11 @@ const About = () => {
     })
     return (
         <>
-            <div data-aos="" data-aos-duration="800" className="mt-10 mb-20 flex relative overflow-hidden justify-around items-center font-mono px-10 py-10 sm-mx:px-4 xs-mx:px-2 xs-mx:py-4 h-fit lg-mx:justify-between bs-mx:flex-wrap bs-mx:flex-col-reverse bs-mx:!overflow-visible bs-mx:gap-6 md-mx:px-6" id="About">
+            <div className=" flex relative overflow-hidden justify-around items-center font-mono px-10 py-10 sm-mx:px-4 xs-mx:px-2 xs-mx:py-4 h-fit lg-mx:justify-between bs-mx:flex-wrap bs-mx:flex-col-reverse bs-mx:!overflow-visible bs-mx:gap-6 md-mx:px-6 aos-init aos-animate" id="About">
                 <Particles
                     className="absolute -z-20 inset-0"
                     quantity={600}
-                    ease={10}
+                    ease={5}
                     vx={.2}
                     vy={.2}
                     color="#64FFDA"
