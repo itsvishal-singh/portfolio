@@ -24,6 +24,7 @@ const Header=()=>{
         else setShow(true);
         if(window.scrollY>70)setShadow(true);
         else setShadow(false);
+        
         setLastScrollY(window.scrollY);
     }
     useEffect(()=>{
