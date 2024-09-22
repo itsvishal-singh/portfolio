@@ -32,11 +32,11 @@ const Header=()=>{
         return ()=>window.removeEventListener('scroll', controlNavbar);
     })
 return (
-    <nav className={`flex ${show?"translate-y-0":"-translate-y-28"} ${shadow?"shadow-[0px_10px_30px_-10px_#020c1b]":""} transition-transform duration-500 ease-in-out flex w-full z-30 bg-bgColor h-20  px-10  justify-between items-center xs-mx:px-4 xs-mx:h-20 `}>
+    <nav className={`flex ${show?"translate-y-0":"-translate-y-28"} ${shadow?"shadow-[0px_10px_30px_-10px_#020c1b]":""} transition-transform duration-500 ease-in-out flex w-full z-30 bg-bgColor h-24  px-10 justify-between items-center xs-mx:px-4 xs-mx:h-20 `}>
         
         <IconHexagonLetterV className="z-10" size={isMobile?45:60} color="#64FFDA" stroke={1.30}/>
         <div className="bs:flex gap-8 hidden">
-            {navLinks(false, null)}
+            {navLinks(false,null)}
         </div>
         <SideBar/>
     </nav>

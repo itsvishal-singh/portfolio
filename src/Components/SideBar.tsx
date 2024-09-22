@@ -11,9 +11,9 @@ const SideBar=()=> {
 
   return (
     <>
-      <Drawer.Root  className='bs:hidden !-z-10'  position='right' opened={opened}   onClose={toggle} size="50vw" >
-        <Drawer.Overlay className='!-z-0 !backdrop-opacity-85 blur-sm' />
-        <Drawer.Content className='!-z-0' bg="#112240">
+      <Drawer.Root  className=' bs:hidden !-z-10'  position='left' opened={opened}   onClose={toggle} size="50vw" >
+        <Drawer.Overlay className='!-z-1 !backdrop-opacity-60 blur-sm' />
+        <Drawer.Content className='!-z-1' bg="#112240">
           <Drawer.Body className='mt-20 xs:mt-24  flex flex-col gap-5' bg="#112240">
             {navLinks(true, toggle)}
           </Drawer.Body>
