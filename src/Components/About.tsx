@@ -17,7 +17,7 @@ const About = () => {
     })
     return (
         <>
-            <div className="mt-12 mb-24 flex relative overflow-hidden justify-around items-center font-mono px-10 py-10 sm-mx:px-4 xs-mx:px-2 xs-mx:py-4 h-fit lg-mx:justify-between bs-mx:flex-wrap bs-mx:flex-col-reverse bs-mx:!overflow-visible bs-mx:gap-6 md-mx:px-6 aos-init aos-animate" id="About">
+            <div className="mt-10 mb-14 flex relative overflow-hidden justify-around items-center font-mono px-10 py-10 sm-mx:px-4 xs-mx:px-2 xs-mx:py-4 h-fit lg-mx:justify-between bs-mx:flex-wrap bs-mx:flex-col-reverse bs-mx:!overflow-visible bs-mx:gap-6 md-mx:px-6 aos-init aos-animate" id="About">
                 <Particles
                     className="absolute -z-20 inset-0"
                     quantity={600}
