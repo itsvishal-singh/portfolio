@@ -10,9 +10,18 @@ const Info = {
 
 const ProjectInfo = [
     {
-        title: "Portfolio",
+        title: "Personal Portfolio",
         desc: "This is my personal Portfolio",
-        image: "profile.png",
+        image: "portfolio.png",
+        live: false,
+        technologies: ["React", "Tailwind"],
+        link: "https://itsvishal-singh.github.io/portfolio/",
+        github: "https://github.com/itsvishal-singh/portfolio"
+    },
+    {
+        title: "GYM Management",
+        desc: "This is my personal Portfolio",
+        image: "gym.png",
         live: false,
         technologies: ["React", "Tailwind"],
         link: "https://itsvishal-singh.github.io/portfolio/",
