@@ -58,7 +58,7 @@ const socialLinks = [
 const ExperienceInfo = [
     {
         role: "Internship",
-        company: "IBM SkillsBuild Frontend Web Development Summer Internship ",
+        company: "IBM",
         date: "25th June 2024 – 5th August 2024",
         desc: "Led a group internship project as the team leader, overseeing 6 team members and successfully managing frontend of GYM management website",
         skills: ["Tailwind", "React JS"]
