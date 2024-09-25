@@ -14,18 +14,18 @@ const ProjectInfo = [
         desc: "This is my personal Portfolio",
         image: "portfolio.png",
         live: false,
-        technologies: ["React", "Tailwind"],
+        technologies: ["React", "Tailwind", "Firebase"],
         link: "https://itsvishal-singh.github.io/portfolio/",
         github: "https://github.com/itsvishal-singh/portfolio"
     },
     {
         title: "GYM Management",
-        desc: "This is my personal Portfolio",
+        desc: "Developed a responsive GYM management website using React & Tailwind",
         image: "gym.png",
         live: false,
-        technologies: ["React", "Tailwind"],
-        link: "https://itsvishal-singh.github.io/portfolio/",
-        github: "https://github.com/itsvishal-singh/portfolio"
+        technologies: ["React + Vite", "Tailwind"],
+        link: "https://vishalgym.vercel.app/",
+        github: "https://github.com/itsvishal-singh/Frontend"
     }
 ]
 
