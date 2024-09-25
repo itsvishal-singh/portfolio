@@ -6,7 +6,7 @@ const SkillBadge=(skills:[])=>{
 }
 
 const SkillCard =(props:any)=>{
-    return <div data-aos=""   data-aos-duration="800" data-aos-easing="ease-in-sine" className="w-[47%] shadow-[0_0_10px_0_#64FFDA50] rounded-3xl  mb-3 border border-primaryColor p-5 bs-mx:p-3 sm-mx:w-full ">
+    return <div className="w-[47%] shadow-[0_0_10px_0_#64FFDA50] rounded-3xl  mb-3 border border-primaryColor p-5 bs-mx:p-3 sm-mx:w-full cursor-pointer transition-transform duration-800 ease-in-out hover:!scale-[1.02] mb-5 hover:!shadow-[0_0_10px_1px_#64FFDA80] xs-mx:!shadow-[0_0_10px_1px_#64FFDA80] !border-primaryColor border-2 " data-aos="fade-up">
         <div className="text-3xl mb-4 text-white text-center sm-mx:text-2xl xs-mx:text-xal font-bold ">{props.title}</div>
         <div className="flex gap-3 bs-mx:gap-2 justify-center flex-wrap">
             {SkillBadge(props.skills)}
